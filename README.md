@@ -1,4 +1,4 @@
-# Neural_Network_Charity_Analysis
+# Neural Network Charity Analysis
 Used Python to evaluate and predict where a foundation should make investments.
 
 ## Table of contents
