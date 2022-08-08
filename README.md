@@ -30,7 +30,7 @@ For my original model there were three hidden layers
 - First layer used 80 neurons and relu activation
 - Second layer used 20 neurons and relu activation
 - Final layer used sigmoid activation
-- The result was a loss of 55.4% and accuracy of 73%
+- The result was a loss of 55.8% and accuracy of 73%
 
 ![ASC_nn](Images/ASC_nn.png)
 
