@@ -34,8 +34,13 @@ For my original model there were three hidden layers
 
 ![ASC_nn](Images/ASC_nn.png)
 
-In an attempt to optimize and reach an accuracy of 75% or more I implemented keras tuner
-- The top 3 models 
-
+In an attempt to optimize and reach an accuracy of 75% or more I implemented Keras Tuner to search for best parameters
+- The best model produced loss around 57.2% and accuracy of 73.4%
+  - This model used 6 hidden layers and sigmoid activation
+- The second and third best models had similar loss and accuracy values
+  - These models used 5 and 6 hidden layers, respectively, and sigmoid activation
+  
+ ![ASC_opt](Images/ASC_opt.png)
 
 ## Summary
+Keras Tuner didn't improve results significantly, all models tested remain below 75% accuracy. Random Forest Classifiers could be a good model to try out, since they have high accuracy, are easy to interpret, and provides results faster.
