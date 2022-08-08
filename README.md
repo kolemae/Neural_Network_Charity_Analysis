@@ -32,7 +32,7 @@ For my original model there were three hidden layers
 - Final layer used sigmoid activation
 - The result was a loss of 55.4% and accuracy of 73%
 
-[!ASC_nn](Images/ASC_nn.png)
+![ASC_nn](Images/ASC_nn.png)
 
 In an attempt to optimize and reach an accuracy of 75% or more I implemented keras tuner
 - The top 3 models 
